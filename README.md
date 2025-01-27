@@ -4,9 +4,9 @@ This Flutter application is a basic AI-based image generator that integrates wit
 
 ## Screen shots :
 <p>
- <img src="https://github.com/user-attachments/assets/89fba77e-319c-4380-ab78-c8314da19596" alt="Image 1" width="250">
- <img src="https://github.com/user-attachments/assets/680d82c0-082b-453b-876a-723dcb0cf705" alt="Image 2" width="250">
- <img src="https://github.com/user-attachments/assets/b25beef9-4b4d-4355-b53d-54aeb75669bd" alt="Image 3" width="250">
+ <img src="https://github.com/user-attachments/assets/89fba77e-319c-4380-ab78-c8314da19596" alt="Image 1" width="270">
+ <img src="https://github.com/user-attachments/assets/680d82c0-082b-453b-876a-723dcb0cf705" alt="Image 2" width="270">
+ <img src="https://github.com/user-attachments/assets/b25beef9-4b4d-4355-b53d-54aeb75669bd" alt="Image 3" width="270">
 </p>
 
 ## Features
