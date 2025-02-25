@@ -2,6 +2,13 @@
 
 This Flutter application is a basic AI-based image generator that integrates with the Imagine API, a product of Midjourney AI, to create images based on user input prompts. The application currently features a single screen with a text input field for prompts and a "Generate" button to initiate image creation. Further functionality and updates will be added in future commits.
 
+## Screen shots :
+<p>
+ <img src="https://github.com/user-attachments/assets/89fba77e-319c-4380-ab78-c8314da19596" alt="Image 1" width="270">
+ <img src="https://github.com/user-attachments/assets/680d82c0-082b-453b-876a-723dcb0cf705" alt="Image 2" width="270">
+ <img src="https://github.com/user-attachments/assets/b25beef9-4b4d-4355-b53d-54aeb75669bd" alt="Image 3" width="270">
+</p>
+
 ## Features
 
 - **Prompt Input**: Enter text prompts to describe the image you want to generate.
