@@ -8,7 +8,7 @@ class PromptRepo {
     try {
       const String url = 'https://api.vyro.ai/v1/imagine/api/generations';
       const Map<String, dynamic> headers = {
-        'Authorization': 'Bearer vk-HR6fNhJSDcFsjYh8xUqhhvXXxqy39mDNpsmVY63WDF0JB',
+        'Authorization': 'Bearer vk-oe0eezFVHhnbP7i3lxTTB26jvWKz4D5zUx5Ho33RkvKPd7',
       };
 
       final Map<String, dynamic> payload = {
@@ -16,7 +16,7 @@ class PromptRepo {
         'style_id': '122',
         'aspect_ratio': '1:1',
         'cfg': '5',
-        'seed': '1',
+        'seed': '2',
         'high_res_results': '1'
       };
 

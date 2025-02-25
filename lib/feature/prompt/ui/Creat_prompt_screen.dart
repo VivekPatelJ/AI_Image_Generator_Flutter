@@ -40,14 +40,14 @@ class _CreatPromptScreenState extends State<CreatPromptScreen> {
           if (state is ProptGeneratingErrorLoad) {
             // Show a Snackbar or any other error handling logic
             ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: Text("Error: Could not generate the image")),
+              SnackBar(content: Text("Error: Could not generate the image"),),
             );
           }
         },
         builder: (context, state) {
           switch (state.runtimeType) {
             case ProptGeneratingImageLoad:
-              return Center(child: CircularProgressIndicator());
+              return Center(child: CircularProgressIndicator(),);
 
             case ProptGeneratingErrorLoad:
               return Center(child: Text("Something went wrong"));
