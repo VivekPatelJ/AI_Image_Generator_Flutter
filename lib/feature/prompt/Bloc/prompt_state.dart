@@ -16,4 +16,4 @@ final class ProptGeneratingSuccessLoad extends PromptState{
   final Uint8List uint8list;
 
   ProptGeneratingSuccessLoad(this.uint8list);
-}
+} 

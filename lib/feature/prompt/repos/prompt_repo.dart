@@ -30,14 +30,11 @@ class PromptRepo {
       final response = await dio.post(url, data: formData);
 
       if (response.statusCode == 200) {
-        // Check if response data is binary or Base64 encoded
         if (response.headers.value('content-type')?.contains('application/json') ?? false) {
-          // If the response is JSON, it might contain an error message
           final jsonResponse = jsonDecode(utf8.decode(response.data));
           log('Error in response: ${jsonResponse.toString()}');
           return null;
         } else if (response.headers.value('content-type')?.contains('text/plain') ?? false) {
-          // If the response is Base64 encoded, decode it
           String base64String = utf8.decode(response.data);
           Uint8List uint8list = base64Decode(base64String);
           return uint8list;
